@@ -51,7 +51,7 @@ class Program
             fileOption, delayOption, fgcolorOption, lightModeOption);
         // </sethandler>
 
-        return rootCommand.InvokeAsync(args).Result;
+        return await rootCommand.InvokeAsync(args;
     }
 
     // <handler>
